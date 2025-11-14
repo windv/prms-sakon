@@ -7,7 +7,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 $servername = "mysql";
 $username = "root";
-$password = "root_password";
+$password = "";
 $dbname = "db_prms_sakon";
 $port = 3306;
 
