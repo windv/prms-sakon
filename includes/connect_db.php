@@ -5,7 +5,7 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-$servername = "mysql";
+$servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "db_prms_sakon";
